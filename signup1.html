@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="shortcut icon" href="image/library.jpg">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleass.css">
+    <link href="https://fonts.google.com/specimen/Oswald/">
+
+</head>
+<body>
+ 
+<header>
+    <div class="container">
+        <nav>
+
+
+        <ul>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+           
+            
+            <li>
+                <a href="login1.html">LOGIN</a>
+            </li>
+            <li>
+                <a href="gallery.html">GALLERY</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+
+        </ul>
+        <nav>
+    </div>
+</header>
+<section id="showcase">
+    <div>
+        <h1>Library</h1>
+    </div>
+    
+</section>
+
+<section id="branding1">
+    <section id="branding">
+        <h1 style="font-weight: 300;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: bold;padding-left:40px;">Sign Up</h1>   
+    <section class="container-fluid">
+        <section class="row justify-content-left">
+          
+            <section class="col-12 col-sm-6 col-md-8">
+             
+    
+    
+    <form class="formcontainer" action="login1.html" onsubmit="return validate()">
+        <div class="form-group ">
+          <label for="formGroupExampleInput">Name</label>
+          
+          <input type="text" class="form-control" id="name" placeholder="Enter Name"autocomplete="off" >
+          <span id="nam" class="text-danger font-weight-bold"></span>
+        
+    </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="Enter Email Address" autocomplete="off">
+          <span id="mail" class="text-danger font-weight-bold"></span>
+          
+        </div>
+        
+        <div class="form-group">
+            <label for="formGroupExampleInput">Mobile Number</label>
+            <input type="text" class="form-control" id="mobile" placeholder="Enter mobile Number" autocomplete="off">
+            <span id="number" class="text-danger font-weight-bold"></span>
+         </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">User Name</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter User Name" autocomplete="off">
+            <span id="user" class="text-danger font-weight-bold"></span>
+        </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Password"autocomplete="off" >
+            <span id="pwd" class="text-danger font-weight-bold"></span>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Password Strength</label>
+          <p class="strength" id="length"></p>
+      </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Confirm Password </label>
+            <input type="password" class="form-control" id="confirm" placeholder="Confirm Password" autocomplete="off">
+            <span id="cpwd" class="text-danger font-weight-bold"></span>
+        </div>
+          <button type="submit" class="button1 btn-block">Submit</button>
+      </form>
+    </section>
+    </section>
+    </section>
+</section>
+</section>
+    <script src="library.js"></script>
+
+
+     <footer>
+      <h4>Follow Us</h4>
+      <div class="btn-group" role="group" aria-label="Button group">
+          
+      
+      <button class="btn btn-info">Twitter</button>
+      <button class="btn btn-primary">Facebook</button>
+      <button class="btn btn-danger">Google+</button>
+      </div>
+  </footer>
+</body>
+</html>

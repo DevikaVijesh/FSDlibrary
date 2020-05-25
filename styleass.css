@@ -1,0 +1,127 @@
+body{
+    background-color:rgb(169, 173, 173);
+    
+}
+.card-text1{
+    background-color:rgb(85, 83, 83);
+    color: white;
+    width: 100px;
+}
+
+.container{
+    width: 80%;
+    
+    overflow: hidden;
+    margin-left: 0px;
+
+}
+header
+{
+    background-color: darkblue;
+    color: #ffffff;
+    padding-top: 10px;
+    min-height: 50px;
+    padding-left: 5px;
+
+
+}
+    ul{
+    color: white;
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0.25cm;
+    margin: 0mm;
+    
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+     font-size: 15px;
+     margin-left: 5mm;
+}
+header li{
+
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+header a:hover{
+    color: #16A085;
+    font-weight:bold;
+}
+li{
+    display: inline;
+    padding: 5pt;
+    margin-left: 2mm;
+    
+
+}
+#showcase{
+    min-height: 150px;
+
+    background-color: rgb(3, 3, 70) ;
+    width: 100%;
+    text-align:left;
+    color:white;
+    
+}
+#showcase h1{
+    margin-top: 0px;
+    font-size: 55px;
+    margin-left: 90px;
+    padding-top: 30px;
+    
+}
+#getICT form{
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color:darkblue;
+    
+}
+.container{
+    margin-top:0px;
+    padding-inline-start: 10px;
+    
+}
+#branding1 h2{
+    text-align: center;
+    color: darkblue;
+    font-size: 20pt;
+    padding-top: 20px;
+}
+
+#branding1{
+    background-color:white;
+width:31cm;height:18cm;
+margin-left: 3cm;
+margin-top: -1cm;
+
+    
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: auto;
+}
+
+.form-group{
+    color: black;
+    font-weight: bold;
+}
+.formcontainer{
+    position: relative;
+    padding:30px;
+    border-radius: 10px;
+
+    
+}
+.button1{
+    background-color:blue;
+    color: white;
+}
+
